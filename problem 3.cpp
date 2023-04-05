@@ -1,11 +1,9 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() {
-    int n, m;
-    cin>> n >> m;
-    cout<< "The result of sum is equal to " << n + m << endl;
-    cout<< "The result of product is equal to " << n * m << endl;
-
-
+    float t;
+    cin >> t;
+    cout << "The temperature in Farenheit is equal to " << t * 1.8 + 32 << endl;
+    return 0;
     }
