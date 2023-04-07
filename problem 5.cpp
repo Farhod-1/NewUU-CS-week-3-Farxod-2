@@ -5,7 +5,7 @@ int main() {
     int n, m;
     cin>> n >> m;
     if(n >= m){
-        cout << 1;
-    }else  cout << 0;
+        cout << 1 << endl;
+    }else  cout << 0 << endl;
     return 0;
 }
